@@ -45,7 +45,6 @@ function logIn(){
 }
 
 
-
 // -------------------------------------------------------------------------------------------------------
 // Function:  updateOccupancyReport
 // Download the occupancy report from mission tracker as an .xls, then convert it to google sheets and replace the specified spreadsheet with it.
