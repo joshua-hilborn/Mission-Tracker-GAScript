@@ -52,7 +52,7 @@ function updateRoster() {
   Logger.log(historicalData)
   Logger.log(historicalDataFlat)
    
-  //Search for People Moved out--------------------------------------------------------------------------------------------------------
+  //Search for People Moved out-
   for (var i in rosterData)
   {
     var rosterName = rosterData[i][0]
@@ -69,7 +69,7 @@ function updateRoster() {
     //Logger.log(i + " [" + rosterName + "] Found in MT at index: " + nameFoundAtIndex + " Exit Date of " + rosterData[i][2])
   }
   
-  //Search for new Adds--------------------------------------------------------------------------------------------------------------------
+  //Search for new Adds-
   for (var i in mtData)
   {
     var mtName = mtData[i][0]
